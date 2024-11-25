@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+body{
+    font-family: Bai Jamjuree;
+    overflow-x: hidden;
+}
+p{
+    color: #a8acaf;
+}
+.sectionOne{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    height: 70vh;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.sectionOne p{
+    width: 580px;
+}
+.buttons{
+    display: flex;
+    gap: 40px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+h1{
+    color: #4b525a;
+    font-size: 40px;
+}
+h2{
+    color: #4b525a;
+}
+/* .sectionOne p{
+    width: 550px;
+} */
+.iOS{
+    background-color: #24bca5;
+    color: white;
+    border: none;
+    width: 150px;
+    padding: 15px;
+    border-radius: 40px;
+    box-shadow: 0px 5px 0px #1a9f8a;
+    cursor: pointer;
+}
+.iOS:hover{
+    background-color: #60cbb9;
+}
+.Mac{
+    background-color: #6174fe;
+    color: white;
+    border: none;
+    width: 150px;
+    padding: 15px;
+    border-radius: 40px;
+    box-shadow: 0px 5px 0px #5064df;
+    cursor: pointer;
+}
+.Mac:hover{
+    background-color: #8896ff;
+}
+.withImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 100px; */
+    /* border: 1px solid; */
+    /* width: 700px; */
+    margin-top: 60px;
+}
+.beforeImg{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.beforeImg p{
+    width: 640px;
+    text-align: center;
+}
+#laptop{
+    float: left;
+    /* border: 1px solid; */
+    margin-left: -50px;
+    transform: translateX(-240px);
+}
+.nextToImg{
+    align-self: flex-start;
+    margin-top: 50px;
+    width: 340px;
+    /* border: 1px solid; */
+    margin-left: -100px;
+}
+.sectionThree{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sectionThree p{
+    width: 600px;
+    text-align: center;
+}
+.sectionThree img{
+    margin-top: 80px;
+}
+.sectionFour{
+    text-align: center;
+}
+.columnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.columns{
+    width: 360px;
+    /* border: 1px solid; */
+}
+.companyLogos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.sectionFive{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+.sectionFive p{
+    width: 600px;
+    text-align: center;
+}
+.sectionFive .buttons{
+    text-align: center;
+    margin-top: 20px;
+}   
+footer{
+    position: absolute;
+    bottom: -440vh;
+    width: 100%;
+    background-color: #f5f6f8;
+    /* left: -10px; */
+    padding-top: 30px;
+    /* padding-left: 160px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* top: -10px; */
+    transform: translateY(200px);
+}
+.footerColumns{
+    width: 70%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 130px;
+    padding-left: 80px;
+}
+.three{
+    align-self: flex-start;
+}
+.footerColumns p{
+    font-weight: 1000px;
+}
+.footerColumns p:hover{
+    color: #78c5b1;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.icons img:hover{
+    cursor: pointer;
+}
